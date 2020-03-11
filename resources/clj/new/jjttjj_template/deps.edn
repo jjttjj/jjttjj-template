@@ -1,7 +1,7 @@
 {:paths ["src" "resources"]
  :deps  {org.clojure/clojure {:mvn/version "1.10.1"}
          jjttjj/base         {:git/url "https://github.com/jjttjj/base.git"
-                              :sha     "ff83f2c65909866556ffd9489b5da47024f407fd"}}
+                              :sha     "e6875ea839b018874b5762d5567ac48797b346d3"}}
  :aliases
  {:dev     {:extra-paths ["dev"]}
   :test    {:extra-paths ["test"]
