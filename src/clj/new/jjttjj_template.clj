@@ -1,10 +1,10 @@
-(ns clj.new.jjttjj
+(ns clj.new.jjttjj-template
   (:require [clj.new.templates :refer [renderer project-data ->files]]))
 
-(defn jjttjj
+(defn jjttjj-template
   "FIXME: write documentation"
   [name]
-  (let [render (renderer "jjttjj")
+  (let [render (renderer "jjttjj-template")
         data   (project-data name)]
     (println "Generating fresh 'clj new' jjttjj base project.")
     (->files data
